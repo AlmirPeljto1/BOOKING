@@ -1,0 +1,20 @@
+.Image-full {
+  margin: 0;
+  margin-top: 80px;
+  width: 100%;
+  min-height: 394px;
+  flex-wrap: wrap;
+  object-fit: scale-down;
+}
+@media only screen and (max-width: 500px) {
+  .Image-full {
+    margin: 0;
+    margin-top: 60px;
+    width: 90%;
+    min-height: 394px;
+    flex-wrap: wrap;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 20px;
+  }
+}

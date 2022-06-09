@@ -1,0 +1,128 @@
+.pop-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pop-card {
+  display: flex;
+  flex-direction: column;
+}
+.pop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 30px;
+}
+.pop-wrapp {
+  display: grid;
+}
+.pop-wrapp > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.pop-shade {
+  margin-top: 150px;
+}
+.pop-title {
+  /* UI Properties */
+  margin: 0;
+  margin-top: 62px;
+  margin-bottom: 32px;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+}
+.popTitle {
+  z-index: 100;
+  margin: 0;
+  margin-top: 193px;
+  margin-left: 20px;
+  max-width: 251px;
+  min-height: 46px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.pop-cardRating {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  margin-left: 17px;
+  margin-top: 247px;
+}
+.pop-star {
+  z-index: 100;
+  margin: 0;
+  width: 14px;
+  height: 18px;
+  color: #ffffffcc;
+  opacity: 1;
+}
+.pop-rating {
+  z-index: 2;
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #ffffffcc;
+  opacity: 1;
+}
+@media only screen and (max-width: 1200px) {
+  .pop-grid {
+    margin-left: 20px;
+  }
+  .pop-title {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .pop-grid {
+    margin-inline: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pop-img {
+    width: 95%;
+    min-height: 287px;
+    object-fit: cover;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+  .pop-grid {
+    margin: 0;
+    margin-left: 20px;
+  }
+  .pop-shade {
+    position: absolute;
+    width: 95%;
+    object-fit: scale-down;
+    bottom: 0;
+  }
+  .pop-title {
+    margin-left: 20px;
+  }
+  .pop-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+  .pop-wrapp {
+    display: grid;
+    position: relative;
+  }
+  .pop-wrapp > * {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .popTitle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

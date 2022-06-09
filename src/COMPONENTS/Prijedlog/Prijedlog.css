@@ -1,0 +1,99 @@
+.prijedlog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.prijedlog-grid2 {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.prijedlog-card {
+  width: 200px;
+  height: 79px;
+  margin-bottom: 20px;
+}
+.prijedlog-wrapp {
+  display: flex;
+}
+.prijedlog-container {
+}
+.prijedlog-img {
+  width: 79px;
+  height: 79px;
+}
+.prijedlog-naslov {
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+  margin-top: 80px;
+  margin-bottom: 35px;
+}
+.prijedlogTitle {
+  margin: 0;
+  margin-bottom: 6px;
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+}
+.prijedlog-cardRating {
+  display: flex;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3b3b3b80;
+  opacity: 1;
+  margin-bottom: 6px;
+}
+.small-img {
+  margin: 0;
+}
+.prijedlog-cardStatus {
+  display: flex;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3b3b3b80;
+  opacity: 1;
+}
+.prijedlog-rating {
+  margin: 0;
+  margin-left: 10px;
+}
+.prijedlog-ratingStatus {
+  margin: 0;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 1100px) {
+  .prijedlog-container {
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .prijedlog-card {
+    margin-bottom: 20px;
+  }
+  .prijedlog-grid2 {
+    display: none;
+  }
+  .prijedlog-container {
+    margin: 0;
+    margin-left: 20px;
+  }
+  .prijedlog-naslov {
+    margin-top: 60px;
+  }
+}

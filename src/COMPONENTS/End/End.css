@@ -1,0 +1,19 @@
+.end {
+  width: 100%;
+  min-height: 63px;
+  border-top: 1px solid #3b3b3b1a;
+  border-bottom: 1px solid #3b3b3b1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 80px;
+}
+.endTitle {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+}

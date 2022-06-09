@@ -1,0 +1,145 @@
+.smjestaji-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.smjestaji-title {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+  margin-bottom: 35px;
+}
+.smjes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(216px, 1fr));
+  gap: 30px;
+}
+.grid-card {
+  max-width: 216px;
+  min-height: 341px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.grid-wrapp {
+  display: grid;
+}
+.grid-wrapp > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.grid-cardRating {
+  display: flex;
+  margin-top: 190px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 20px;
+  /* UI Properties */
+  background: #3b3b3b33 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.grid-star {
+  width: 13px;
+  height: 12px;
+}
+.grid-rating {
+  margin: 0;
+  color: #ffd500;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-left: 3.97px;
+}
+.grid-name {
+  margin: 0;
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+}
+.grid-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 71px;
+  height: 28px;
+  background: #3b3b3b0d 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  margin: 0;
+  margin-top: 8px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  opacity: 1;
+}
+.grid-location {
+  margin: 0;
+  display: flex;
+  margin-top: 8px;
+}
+.img-locat {
+  width: 14px;
+  height: 18px;
+}
+.card-location {
+  margin: 0;
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3b3b3b80;
+  opacity: 1;
+}
+@media only screen and (max-width: 1200px) {
+  .smjes-grid {
+    margin-left: 20px;
+  }
+  .smjestaji-title {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .smjes-grid {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 30px;
+    margin-left: 20px;
+  }
+  .smjestaji-title {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #3b3b3b;
+    opacity: 1;
+    margin-bottom: 35px;
+    margin-left: 20px;
+  }
+  .smjestaji-container {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
